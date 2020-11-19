@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fontes e Cores</title>
+		<meta charset="utf-8">
+		<style type="text/CSS">
+			/*unidades de medidas font-size
+			px: valor fixo;
+			%: valor relativo;
+			em: relativo ao container pai. Sendo 1em = 100% container pai;*/
+			div{font-size: 30px}
+			.texto{
+				font-size: 1em;
+			}
+			.texto2{font-size: 2em}
+		</style>
+	</head>
+	<body>
+		<!-- "div" está sendo o container pai-->
+		<div>
+			<p class="texto">Conteúdo</p>
+			<!-- "p" está sendo o filho-->
+			<p class="texto2">Conteúdo</p>
+		</div>
+	</body>
+</html>
